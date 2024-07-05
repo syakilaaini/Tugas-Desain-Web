@@ -1,0 +1,43 @@
+nav{
+    background-color:rgb(0, 209, 157);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-right: 5px;
+}
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    background-color:rgb(241, 139, 43);
+    color: azure
+}
+
+
+main{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:gold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
