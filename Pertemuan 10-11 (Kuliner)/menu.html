@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        section{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+
+        .card{
+        flex-direction: column;
+        align-items: start;
+        border: 1px solid #f36f6f;
+        padding: 15px;
+        display: flex;
+        width: 1/4;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        box-shadow: 3px 3px 10px #ce8d8d;
+        background-color: white;
+        margin-right: 20px;
+    }
+
+        .card>h1{
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+        .card-body{
+        padding: 5px;
+    }
+
+        .card-body>h4{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+        .desc{
+        margin-top: 10px;
+        text-warp: pretty;
+        text-align: justify;
+     width: 300px;
+    }
+</style>
+    
+</head>
+<body>
+    <div class="top">
+        <div class="logo">Kuliner Binjai</div>
+        <div class="nav">
+            <a href="#"></a>
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-search"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="heading">
+        <div class="left">
+            <p>Are You Hungry?</p>
+            <h1>Don't Worry</h1>
+            <p>Lets order now</p>
+       
+            <button>Search</button>
+        </div>
+
+        <div class="right" id="food"></div>
+
+        <div class="SocialMedia">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="Menu">
+            <div id="food1"></div>
+            <div id="food2"></div>
+            <div id="food3"></div>
+            <div id="food4"></div>
+        </div>
+    </div>
+        <section>
+            <div class="card">
+                <h1>Nasi Goreng</h1>
+                <div class="card-body">
+                    <img src="food1.jpeg" alt="" height="200" width="200">
+                    <h4>Rp. 13.000</h4>
+                   
+                </div>
+            </div>
+
+            <div class="card">
+                <h1>Mie Ayam Bakso</h1>
+                <div class="card-body">
+                    <img src="food2.jpg" alt="" height="200" width="200">
+                    <h4>Rp. 15.000</h4>
+                   
+                </div>
+            </div>
+
+            <div class="card">
+                <h1>Mie Goreng</h1>
+                <div class="card-body">
+                    <img src="food3.jpg" alt="" height="200" width="200">
+                    <h4>Rp. 10.000</h4>
+                   
+                </div>
+            </div>
+
+            <div class="card">
+                <h1>Ayam Geprek</h1>
+                <div class="card-body">
+                    <img src="food4.jpg" alt="" height="200" width="200">
+                    <h4>Rp. 10.000</h4>
+                   
+                </div>
+            </div>
+    
+    <script src="kuliner.js"></script>
+</body>
+</html>
